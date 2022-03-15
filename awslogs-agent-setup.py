@@ -1067,7 +1067,7 @@ def parse_args():
 
     # Optional parameter to specify a local folder for standalone installation.
     # Useful if you do not have access to pip repositories or limited external connectivity.
-    # Needs necessary dependency packages to be available locally. 
+    # Needs necessary dependency packages to be available locally.
     parser.add_option("--dependency-path", dest="dependency_path", help="Path to local folder that has the dependency packages")
     parser.add_option("--ca-bundle", dest="ca_bundle", help="Path for the CA certificate bundle to use for verifying SSL certificates.")
     options, args = parser.parse_args()
