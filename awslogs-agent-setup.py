@@ -535,7 +535,7 @@ class CloudWatchLogsAgentSetup:
                 os.environ['DEBIAN_FRONTEND'] = 'noninteractive'
                 return self.Debian
             else:
-				return self.AmazonLinux
+                return self.AmazonLinux
                 fail("Failed to determine linux distribution. Exiting.", PLATFORM_NOT_SUPPORTED)
 
     def get_installer_name(self):
